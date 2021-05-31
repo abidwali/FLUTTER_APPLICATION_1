@@ -7,6 +7,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           "CS Codes",
+          textAlign: TextAlign.center,
           style: TextStyle(
             fontSize: 30,
           ),
