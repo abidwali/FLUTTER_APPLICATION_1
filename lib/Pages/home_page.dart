@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -6,12 +7,12 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "CS Codes",
-          textAlign: TextAlign.center,
+          "@abidwali.se codes",
           style: TextStyle(
             fontSize: 30,
+            fontWeight: FontWeight.bold,
           ),
-        ),
+          ),
       ),
       body: Center(
         child: Container(
@@ -20,9 +21,8 @@ class HomePage extends StatelessWidget {
             style: TextStyle(
               fontSize: 20,
               color: Colors.blue,
-              fontWeight: FontWeight.bold,
             ),
-          ),
+            ),
         ),
       ),
       drawer: Drawer(),
