@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/widgets/drawer.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -7,25 +8,25 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "@abidwali.se codes",
+          "CS Catalog",
           style: TextStyle(
             fontSize: 30,
             fontWeight: FontWeight.bold,
           ),
-          ),
+        ),
       ),
       body: Center(
         child: Container(
           child: Text(
-            "Welcome To CS Codes",
+            "Coded by Abid Wali",
             style: TextStyle(
               fontSize: 20,
               color: Colors.blue,
             ),
-            ),
+          ),
         ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
