@@ -1,0 +1,44 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "iPhone 12 Pro",
+            "desc": "Apple iPhone 12th generation",
+            "price": 999,
+            "color": "#33505a",
+            "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-12-pro-max-blue-hero?wid=1200&hei=630&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1604021658000"
+        },
+        {
+            "id": 2,
+            "name": "Google Pixel 5",
+            "desc": "Google 12th generation",
+            "price": 819,
+            "color": "#33505a",
+            "image": "https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_90,w_1400/fl_lossy,pg_1/eczk22yeyg1hajjgqqih/google-pixel-5-01"
+        },
+        {
+            "id": 3,
+            "name": "M1 Macbook Air",
+            "desc": "Apple Macbook Air with apple silicon",
+            "price": 3000,
+            "color": "#00ac51",
+            "image": "https://cdn.mos.cms.futurecdn.net/GfinEMFXnT42BFxAcDc2rA-1200-80.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Galaxy S21",
+            "desc": "Samsung Galaxy S21 2021 edition",
+            "price": 899,
+            "color": "#7c95eb",
+            "image": "https://mspoweruser.com/wp-content/uploads/2021/01/Samsung-Galaxy-S21-Ultra-Colors.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Galaxy S21 Ultra",
+            "desc": "Samsung Galaxy S21 Ultra edition",
+            "price": 950,
+            "color": "#7c95eb",
+            "image": "https://mspoweruser.com/wp-content/uploads/2021/01/Samsung-Galaxy-S21-Ultra-Colors.jpg"
+        }
+    ]
+}
